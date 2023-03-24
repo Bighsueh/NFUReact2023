@@ -1,7 +1,8 @@
 # 第二周：Git觀念
 ## Git觀念
 
-![Git架構](https://s4.itho.me/sites/default/files/images/708-%E5%B0%81%E9%9D%A2-P29-600-1.png)  
+![Source: git Documentation - Pro Git book](https://1.bp.blogspot.com/-OXDQnkIMhYo/XO-pJSiLWQI/AAAAAAAAD7E/B53B_TqGTuEC0LIvxjY4HKRbiirTGwlCwCLcBGAs/s640/git01.png)  
+![Source: TechBridge 技術共筆部落格 - Git 與 Github 版本控制基本指令與操作入門教學](https://1.bp.blogspot.com/-fh2SDRXG-HU/XO_Kov4n_-I/AAAAAAAAD7c/Bo1HWbK6AV8mZr5S-W191qDfCip48-J3ACLcBGAs/s1600/git02.png)
 [圖源-ithome](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ithome.com.tw%2Fnews%2F95283&psig=AOvVaw3E5JQHFqlVuIoiZf0kePAv&ust=1679728599693000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDn2eWC9P0CFQAAAAAdAAAAABAE)  
 
 ### Git是甚麼
