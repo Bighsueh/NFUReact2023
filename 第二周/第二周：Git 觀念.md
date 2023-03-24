@@ -3,7 +3,8 @@
 
 ![Source: git Documentation - Pro Git book](https://1.bp.blogspot.com/-OXDQnkIMhYo/XO-pJSiLWQI/AAAAAAAAD7E/B53B_TqGTuEC0LIvxjY4HKRbiirTGwlCwCLcBGAs/s640/git01.png)  
 ![Source: TechBridge 技術共筆部落格 - Git 與 Github 版本控制基本指令與操作入門教學](https://static.coderbridge.com/img/techbridge/images/kdchang/cs101/git-workflow.png)
-[圖源-ithome](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ithome.com.tw%2Fnews%2F95283&psig=AOvVaw3E5JQHFqlVuIoiZf0kePAv&ust=1679728599693000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDn2eWC9P0CFQAAAAAdAAAAABAE)  
+
+[參考資料-Git操作](https://seansharingblog.blogspot.com/2019/05/git-very-basic.html)
 
 ### Git是甚麼
 Git 是一種版本控制系統，它用於追蹤文件的更改，並協調多個人之間的工作。Git 常用於軟件開發，但也可以用於管理任何種類的文件。Git 是一個分散式版本控制系統，這意味著每個開發者都可以在本地存儲完整的 Git 存儲庫。Git 允許開發者在本地進行更改，然後將這些更改推送到遠程存儲庫中，或者從遠程存儲庫中拉取更改到本地。  
