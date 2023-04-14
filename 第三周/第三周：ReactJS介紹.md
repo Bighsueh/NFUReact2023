@@ -21,8 +21,7 @@ MVC是一種設計模式，將整個系統分成三個部分。MVC分別代表Mo
 ---  
 
 ## 前後端分離的MVC概念
-![MVC Front End](images/MVCFront-Back.png)  
-[圖源](https://blog.huli.tw/2017/09/06/spa-single-page-application/)  
+參考資料: [TechBridge 技術共筆部落格-前後端分離與 SPA](https://blog.techbridge.cc/2017/09/16/frontend-backend-mvc/)  
 1. 前端僅負責收取資料，將資料處理好呈現給使用者，並將收取到的資料處理好傳送給後端，原本MVC中Model的功能則交由後端取代。  
 2. 後端負責收發前端與前端溝通的資料，將收取到的資料進行邏輯處理，並回傳資料或將資料與資料庫進行連接進行後續處理，原本MVC中View的功能則交由前端取代。  
 ---  
