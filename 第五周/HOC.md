@@ -1,5 +1,5 @@
 # 第五週:HOC介紹&範例(BLACKPINK按讚按紐)
-全名Higher Order Component，將原本component的一部分function獨立出來做成另外一個component，讓其他component要用到這個function的功能時可以更加方便  
+全名Higher Order Component，將原本component的一部分function獨立出來做成一個新的component，讓其他component要用到新component的功能時可以更加方便  
 概念  
 ![flowchart](images/picturecp.png)
 流程圖  
