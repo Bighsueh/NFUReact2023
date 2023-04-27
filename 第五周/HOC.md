@@ -11,7 +11,7 @@
 ## 2. 主畫面設置  
  因為預設index.js是render App.js的畫面，所以把App.js作為主畫面
 ### (1) 在src裡面建立兩個component(Person1,Person2)
-### (2) App.js的標題、兩個component
+### (2)  App要render的內容，包含上述兩個component
 ### (3) import Person1跟Person2  
  ![APP.js](images/likey2.png)
 ---  
@@ -24,10 +24,9 @@
   ![Person1](images/likey3.5.png) 
 ---  
 ## 4. 設定按紐
-設定兩個props，likey(數值)以及setlikey(function)，設likey的初始值為1  
-設定一個function叫handleIncrease，內容是setlikey這個function為likey+1  
-設定按紐。按一下執行handleIncrease  
-將標題的數字改為likey的value  
+設定兩個props，likey(數值)以及setlikey(function)，設likey的初始值為1。
+設定一個function叫handleIncrease，內容是setlikey這個function為likey+1，設定按紐。按一下執行handleIncrease。
+將標題的數字改為likey的value。  
 ![NewPerson1](images/likey4.png)  
 
 畫面  
@@ -35,16 +34,14 @@
 ![image4.5](images/likey4.5.png)
 ---  
 ## 5. 建立HOC檔案 
-src裡面新增一個component(HOC.js)  
-把會重複用到的component(設定likey、setlikey)丟到HOC裡面  
-回傳handleIncrease這個function以及likey的值  
+src裡面新增一個component(HOC.js)，把會重複用到的component(設定likey、setlikey)丟到HOC裡面。
+回傳handleIncrease這個function以及likey的值。  
 ![HOC](images/likey5.png)
 ## 6. 修改Person1&2  
-把原component定義參數那段程式碼刪掉
-將在HOC設定好的likey與handleIncrease作為Person1的輸出  
-輸出畫面改為經過HOC的Person1 function  
+計算likey的程式碼改到HOC中，在第2行引入HOC的script，在第4行的Person1加入兩個props，第16行的輸出改為帶入Person1的HOC的回傳值。 
+輸出畫面改為經過HOC的Person1 function。  
 ![HOC](images/likey6.png)
-## 7. 隨意增加新的component
+## 7. 套用HOC增加新的component
 增加兩個新的component  
 畫面  
 ![image7](images/likey7.png)
