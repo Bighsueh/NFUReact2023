@@ -36,7 +36,23 @@
 ## 5. 建立HOC檔案 
 src裡面新增一個component(HOC.js)，把會重複用到的component(設定likey、setlikey)丟到HOC裡面。
 回傳handleIncrease這個function以及likey的值。  
-![HOC](images/likey5.png)
+![HOC](images/likey5.png)  
+```
+import React, { useState } from 'react';
+
+function UpdatedComponent(OriginalComponent) {
+    
+    function NewComponent(){
+        const[likey,setlikey]= useState(1)
+        const handleIncrease =()=>{
+            setlikey(likey+1);
+    };
+    return <OriginalComponent handleIncrease={handleIncrease} likey={likey}/>
+    }
+    return NewComponent
+}
+export default  UpdatedComponent;
+```
 ## 6. 修改Person1&2  
 計算likey的程式碼改到HOC中，在第2行引入HOC的script，在第4行的Person1加入兩個props，第16行的輸出改為帶入Person1的HOC的回傳值。 
 輸出畫面改為經過HOC的Person1 function。  
