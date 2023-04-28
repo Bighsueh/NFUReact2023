@@ -47,6 +47,7 @@ export default Person1;
 const[likey,setlikey]= useState(1)
         const handleIncrease =()=>{
             setlikey(likey+1);
+            }
 ```
 畫面  
 
