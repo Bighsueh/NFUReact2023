@@ -27,8 +27,12 @@
 設定兩個props，likey(數值)以及setlikey(function)，設likey的初始值為1。
 設定一個function叫handleIncrease，內容是setlikey這個function為likey+1，設定按紐。按一下執行handleIncrease。
 將標題的數字改為likey的value。  
-![NewPerson1](images/likey4.png)  
-
+![NewPerson1](images/likey4.png)   
+```
+const[likey,setlikey]= useState(1)
+        const handleIncrease =()=>{
+            setlikey(likey+1);
+```
 畫面  
 
 ![image4.5](images/likey4.5.png)
