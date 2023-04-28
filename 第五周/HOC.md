@@ -18,6 +18,21 @@
 ## 3. Person1,Person2內容 
   標題跟一個按紐  
   ![Person1](images/likey3.png)  
+  ```
+import React from 'react';
+
+function Person1() {
+
+  return (
+    <div className="App">
+      <h1>{內容}</h1>
+      <button>likey</button>
+    </div>
+  );
+}
+
+export default Person1;
+```
   
   畫面 按鈕按不會有反應  
   
