@@ -44,6 +44,9 @@ export default Person1;
 將標題的數字改為likey的value。  
 ![NewPerson1](images/likey4.png)   
 ```
+import React, { useState } from 'react';
+```  
+```
 const[likey,setlikey]= useState(1)
         const handleIncrease =()=>{
             setlikey(likey+1);
